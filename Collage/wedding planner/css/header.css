@@ -1,0 +1,43 @@
+/* HEADER */
+
+header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+.logo-reservation{
+    align-items: center;
+}
+header .toggle{
+    opacity: 0;
+}
+header .logo{
+    width: 150px;
+    margin-left: 250px;
+}
+header .reservation{
+    padding: 15px 25px;
+    background-color: rgba(218,217,214);
+    font-size: 15px;
+    color: black;
+    margin-right: 100px;
+    border-radius: 10px ;
+}
+header .reservation:hover{
+    background-color: rgba(206,180,169);
+    transition: 0.5s;
+    color: white;
+}
+
+/* NAVBAR */
+
+.menu{
+    background-color: rgba(187, 182, 182, 0.215);
+    padding: 10px 0px;
+}
+.menu .menubar{
+    list-style: none;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Moon Dance';
+    src: url('MoonDance-Regular.woff2') format('woff2'),
+        url('MoonDance-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

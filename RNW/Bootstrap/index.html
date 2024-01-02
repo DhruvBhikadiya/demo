@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Project</title>
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css">
+    <link rel="icon" href="imag/favicon.png">
+    <link rel="stylesheet" href="font/RemixIcon/fonts/remixicon.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- TOPBAR -->
+
+        <nav class="topbar bg-secondary-subtle d-none d-lg-block">
+            <div class="container">
+                <div class="d-flex justify-content-between py-2">
+                    <div class="w-2 d-flex ">
+                        <i class="ri-map-pin-2-fill text-secondary"></i>
+                        <p class="mx-2 mb-0 text-secondary">24 Tech Roqad st Ny 10023</p>
+                        <div class="vr"></div>
+                        <i class="ri-mail-line mx-2"></i>
+                        <a href="#">
+                            <p class="mb-0 text-secondary">info@example.com</p>
+                        </a>
+                    </div>
+                    <div class="w-2 d-flex">
+                        <i class="ri-time-line"></i>
+                        <p class="mb-0 ms-2">Office Hour: 08:00am - 6:00pm</p>
+                        <div class="vr mx-2"></div>
+                        <a href="#"><i class="text-secondary ri-facebook-line"></i></a>
+                        <a href="#"><i class="text-secondary ri-twitter-fill mx-2"></i></a>
+                        <a href="#"><i class="text-secondary ri-instagram-fill"></i></a>
+                        <a href="#"><i class="text-secondary ri-linkedin-box-fill mx-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- NAVBAR -->
+
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-icon ms-5" data-bs-target="#navbar" data-bs-toggle="collapse"></button>
+                <a href="#"><img src="imag/logo.png" alt="logo" title="logo" class="w-50"></a>
+                <nav id="navbar" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li><a class="fs-5 nav-link me-4" href="#">Home</a></li>
+                        <li><a class="fs-5 nav-link me-4" href="#">About</a></li>
+                        <li><a class="fs-5 nav-link me-4" href="#">Services</a></li>
+                        <li><a class="fs-5 nav-link me-4" href="#">Team</a></li>
+                        <li><a class="fs-5 nav-link me-4" href="#">Blog</a></li>
+                        <li><a class="fs-5 nav-link me-4" href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <i class="ri-search-line text-white"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- CAROUSEL -->
+
+        <section id="carousel-1" class="carousel slide" data-bs-ride="carousel">
+            <div class="container">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <div class="w-2 me-5 d-none d-lg-block">
+                                <img src="imag/carousel-1.png" alt="slider-1" title="slider-1" width="700">
+                            </div>
+                            <div class="w-2 my-auto ms-3 text-center text-lg-start">
+                                <h5 class="fs-5">Delight your Customers</h5>
+                                <h2 class="mt-3" style="font-size: 50px; line-height: 55px;">Dont Listen to What They Say.Go See</h2>
+                                <p class="p text-secondary mt-3" style="line-height: 25px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores rem cumque saepe voluptate cupiditate animi soluta ipsam consectetur aperiam.</p>
+                                <a href="#" class="btn-1 btn my-5 me-2">View More Details</a>
+                                <a href="#" class="btn-2 btn border border-2 border-dark my-5">Conatct Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div class="w-100 d-none d-lg-block ">
+                                <img src="imag/carousel-2.png" alt="slider-1" title="slider-1" width="600">
+                            </div>
+                            <div class="w-2 my-auto text-center text-lg-start">
+                                <h5 class="fs-5">Trust And Client Focus</h5>
+                                <h2 style="font-size: 50px; line-height: 70px;">Best Digital Agency And Business</h2>
+                                <p class="p text-secondary mt-3" style="line-height: 25px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores rem cumque saepe voluptate cupiditate animi soluta ipsam consectetur aperiam.</p>
+                                <a href="#" class="btn-1 btn my-5 me-2">Read More</a>
+                                <a href="#" class="btn-4 btn border border-2 border-dark">Conatct Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-secondary-subtle position-sticky"
+                        aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-secondary-subtle position-sticky"
+                        aria-hidden="true"></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- ABOUT-US-1 -->
+
+        <section class="about-us-1 container">
+            <div class="row my-5">
+                <div class="col-sm-12 col-lg-6 ">
+                    <h5 class="h5">About us</h5>
+                    <h2 class="h2" style="line-height: 50px;">We are here to fight against violance with <span class="span">experience</span></h2>
+                    <p class="p my-4 text-secondary" style="line-height: 30px;">The argument in favor of using filler text goes something like this: If you use real content in the design process</p>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 d-flex">
+                            <div class="certified">
+                                <i class="ri-book-mark-line me-3"></i>
+                            </div>
+                            <div class="certified-about">
+                                <h3>Certified Company</h3>
+                                <p class="text-secondary">Quickly productivate just in time strategic theme.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 d-flex my-5">
+                            <div class="medal">
+                                <i class="ri-medal-fill mx-sm-3"></i>
+                            </div>
+                            <div class="medal-about">
+                                <h3>Award Ceremony</h3>
+                                <p class="text-secondary">Quickly productivate just in time strategic theme.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex my-5 mx-3">
+                        <div class="sign">
+                            <img src="imag/about-sign.png" alt="sign" title="sign">
+                        </div>
+                        <div class="sign-about mx-3">
+                            <h3>Jhon Martin</h3>
+                            <p class="text-secondary">Chairman & Founder Altech</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <img src="imag/about-us-1.jpg" alt="about-us" title="about-us" class="w-100">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT-US-2 -->
+
+        <section class="about-us-2 container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="imag/about-us-2.png" alt="about-us" title="about-us" class="w-100">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h5 class="h5">About us</h5>
+                    <h2 class="h2" style="line-height: 50px;">We deal with the aspects of professional <span class="span">IT Services</span></h2>
+                    <p class="p my-4 text-secondary" style="line-height: 30px;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+                    <div class="d-flex justify-content-between">
+                        <p class="mt-4 mb-2">App Development</p>
+                        <p class="mt-4 mb-2">86%</p>
+                    </div>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" style="width: 86%;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="mt-4 mb-2">Buisness Growth</p>
+                        <p class="mt-4 mb-2">77%</p>
+                    </div>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" style="width: 77%;"></div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="mt-4 mb-2">Technology Solution</p>
+                        <p class="mt-4 mb-2">84%</p>
+                    </div>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" style="width: 84%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLIENT -->
+
+        <section class="client p-5 my-5">
+            <div class="row">
+                <div class="col-6 w-2">
+                    <h5 class="h5">More Than 50,000 Happy Client</h5>
+                    <h2 class="h2 my-2" style="line-height: 50px;">We Provide Outsourced IT Services For Small & <span class="span">Mid-Sized Business</span></h2>
+                    <p class="p my-5 text-secondary" style="line-height: 20px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                    <a href="#" class="btn border border-2 border-dark rounded-0">Get Altech</a>
+                </div>
+                <div class="col-lg-6 w-2 col-12">
+                    <a href="#"><i class="ri-play-circle-fill text-white"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+
+        <section class="services container">
+            <div class="">
+                <div class="services-header text-center col-12 col-lg-6  ms-auto">
+                    <h5 class="h5 mb-3">Our Services</h5>
+                    <h2 class="h2 my-3 " style="font-size: 40px; line-height: 60px;">We are here to fight against any violance with <span class="span">experience</span></h2>
+                </div>
+                <div class="services-content row justify-content-evenly my-5">
+                    <div class="col-12 col-lg-4 py-sm-5 py-lg-2">
+                        <div class="card text-center p-5 rounded-5 shadow">
+                            <div class="text-center">
+                                <img src="imag/IT-Consultancy.png" alt="IT-Consultancy" title="IT-Consultancy" width="100px">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title mb-4">IT-Consultancy</h3>
+                                <p class="card-text text-secondary mb-4">Expertise in IT consultancy for the IT companies, for their different working areas Web-app related.</p>
+                                <a href="#" class="text-black">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 py-sm-5 py-lg-2">
+                        <div class="card text-center p-5 rounded-5 shadow">
+                            <div class="text-center">
+                                <img src="imag/IT-Management.png" alt="IT-Management" title="IT-Management" width="100px">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title mb-4">IT-Management</h3>
+                                <p class="card-text text-secondary mb-4">We provide all kind of IT management services of in the according to on their organization prioritie.</p>
+                                <a href="#" class="text-black">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 py-sm-5 py-lg-2">
+                        <div class="card text-center p-5 rounded-5 shadow">
+                            <div class="text-center">
+                                <img src="imag/Product-Design.png" alt="Product-Design" title="Product-Design" width="100px">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title mb-4">Product-Design</h3>
+                                <p class="card-text text-secondary mb-4">Our firm is expert to create an efficient for user interface that makes design user interaction lively.</p>
+                                <a href="#" class="text-black">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RECRUITMENT -->
+
+        <section class="container my-5">
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-12 col-lg-6">
+                    <img src="imag/Recruitment.png" alt="Recruitment" title="Recruitment" width="300px">
+                </div>
+                <div class="col-12 col-lg-6 py-sm-5 py-lg-0">
+                    <h5 class="h5">Recruitment Technologies</h5>
+                    <h2 class="h2 my-3" style="font-size: 40px; line-height: 60px;">Solving Recruitment Using <span class="span">Technology</span></h2>
+                    <p class="p text-secondary my-3" style="line-height: 30px;">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour, or randomised words</p>
+                    <div class="d-flex mt-5">
+                        <div class="first">
+                            <i class="ri-number-1 fs-2 rounded-circle text-center p-2"
+                                style="width: 50px; height: 50px;"></i>
+                        </div>
+                        <div class="first-about mx-4">
+                            <h3 class="h3">Exclusive Service</h3>
+                            <p class="p text-secondary">Lorem Ipsum is simply dummy textover of the printing and typesetting industryin. printingand typesetting industry.</p>
+                        </div>
+                    </div>
+                    <hr class="my-3">
+                    <div class="d-flex mt-5">
+                        <div class="second">
+                            <i class="ri-number-2 fs-2 rounded-circle text-center p-2"
+                                style="width: 50px; height: 50px;"></i>
+                        </div>
+                        <div class="second-about mx-4">
+                            <h3 class="h3">Exclusive Service</h3>
+                            <p class="p text-secondary">Lorem Ipsum is simply dummy textover of the printing and typesetting industryin. printingand typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEADERS -->
+
+        <section class="leaders container my-5">
+            <div class="leaders-headers text-center">
+                <h5 class="h5 mb-2 mt-5">We Make Connections</h5>
+                <h2 class="h2 mb-5">Meet Our Leadership</h2>
+            </div>
+            <div class="leaders-content row ">
+                <div class="leaders-card-1 col-lg-4 col-12 col-lg-4">
+                    <div class="leader-1-img mx-3">
+                        <img src="imag/leader-1.jpg" alt="leader-1" title="leader-1" style="width: 100%;">
+                    </div>
+                    <div class="leader-content shadow py-3 px-5 border mx-5 text-center bg-white">
+                        <h5>Jennifer Garcia</h5>
+                        <p>IT Service Officer</p>
+                    </div>
+                </div>
+                <div class="leaders-card-2 col-lg-4 col-12 col-lg-4">
+                    <div class="leader-2-img mx-3">
+                        <img src="imag/leader-2.jpg" alt="leader-2" title="leader-2" style="width: 100%;">
+                    </div>
+                    <div class="leader-content shadow py-3 px-5 border mx-5 text-center bg-white">
+                        <h5>Robert Liam</h5>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+                <div class="leaders-card-3 col-lg-4 col-12 col-lg-4">
+                    <div class="leader-3-img mx-3">
+                        <img src="imag/leader-3.jpg" alt="leader-3" title="leader-3" style="width: 100%;">
+                    </div>   
+                    <div class="leader-content shadow py-3 px-5 border mx-5 text-center bg-white">
+                        <h5>Jessica Ethan</h5>
+                        <p>Project Manager</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- REVIEW -->
+
+        <section class="review container p-5 my-5">
+            <div class="review-title text-center">
+                <h5 class="h5 mb-2">Recent Projects</h5>
+                <h2 class="h2 mb-5" style="font-size: 40px;">What Clients Say</h2>
+            </div>
+            <div id="carousel-2" class="carousel slide" data-bs-ride="carousel">
+                <div class="container">
+                    <div class="carousel-inner">
+                        <div class="carousel-item container active text-center">
+                            <blockquote class="text-secondary fs-5">Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far.No coding skills required loream ipsum simply dummy text contary.</blockquote>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <h4>Victor Williamson</h4>
+                            <p>Web Devloper</p>
+                        </div>
+                        <div class="carousel-item container active text-center">
+                            <blockquote class="text-secondary fs-5">Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far.No coding skills required loream ipsum simply dummy text contary.</blockquote>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <i class="ri-star-s-fill text-warning"></i>
+                            <h4>Victor Williamson</h4>
+                            <p>Web Devloper</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-secondary-subtle position-sticky"
+                            aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-secondary-subtle position-sticky"
+                            aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- BLOG -->
+
+        <section class="blog container my-5">
+            <div class="blog-title my-5">
+                <div class="row">
+                    <div class="col-8 col-lg-9 d-lg-flex d-sm-block">
+                        <div>
+                            <h5 class="h5">Our Blog</h5>
+                            <h3 class="h3">Check Out <span class="span h3">Latest News</span></h3>
+                        </div>
+                        <div class="vr mx-3 d-none d-lg-block"></div>
+                        <p class="p text-secondary text-lg-center mt-4 text-sm-left">The argument in favor of using filler text goes something like this: If you use real content in the design.</p>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-3 text-lg-end">
+                        <button class="btn rounded-0 mt-3 mx-2 px-5 py-2">View More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-content row">
+                <div class="col-lg-4 col-sm-12">
+                        <div class="card container">
+                            <img src="imag/blog-1.jpg" alt="blog-1" title="blog-1" width="100%" class="my-3">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="h3">10 Most Common IT Mistakes Need to Avoid</h3>
+                            </div>
+                            <hr>
+                            <div class="d-flex">
+                                <div class="comments">
+                                    <i class="ri-chat-1-fill"></i>
+                                    <span class="text-secondary">0 Comments</span>
+                                </div>
+                                <div class="vr mx-2"></div>
+                                <div class="admin">
+                                    <i class="ri-user-fill"></i>
+                                    <span class="text-secondary">Admin</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 my-sm-5 my-lg-0">
+                    <div class="card container">
+                        <img src="imag/blog-2.jpg" alt="blog-1" title="blog-1" width="100%" class="my-3">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="h3">How Can I Manage IT Services in Business ?</h3>
+                            </div>
+                            <hr>
+                            <div class="d-flex">
+                                <div class="comments">
+                                    <i class="ri-chat-1-fill"></i>
+                                    <span class="text-secondary">0 Comments</span>
+                                </div>
+                                <div class="vr mx-2"></div>
+                                <div class="admin">
+                                    <i class="ri-user-fill"></i>
+                                    <span class="text-secondary">Admin</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 my-sm-5 my-lg-0">
+                    <div class="card container">
+                        <img src="imag/blog-3.jpg" alt="blog-1" title="blog-1" width="100%" class="my-3">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="h3">5 Easy Ways to Improve Your Web Security</h3>
+                            </div>
+                            <hr>
+                            <div class="d-flex">
+                                <div class="comments">
+                                    <i class="ri-chat-1-fill"></i>
+                                    <span class="text-secondary">0 Comments</span>
+                                </div>
+                                <div class="vr mx-2"></div>
+                                <div class="admin">
+                                    <i class="ri-user-fill"></i>
+                                    <span class="text-secondary">Admin</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+        <!-- CONTACT-US -->
+
+        <section class="contact-us p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-lg-4 text-start text-sm-center order-lg-2">
+                        <img src="imag/footer-logo.png" alt="logo" title="logo" width="200px">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 d-flex my-3 order-lg-1">
+                        <i class="ri-map-pin-line me-2" style="font-size: 20px;"></i>
+                        <p>4789 Melmorn Street, Zakilahon Ton Mashintron Town USA</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 order-lg-3">
+                        <button class="d-flex px-sm-5 py-sm-2 btn border border-2 border-white rounded-0 mt-3 text-white text-md-end ms-lg-auto me-auto"><i class="ri-mail-line text-white"></i><p>Info@Example.Com</p></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <section class="footer">
+            <div class="container">
+                <div class="p-5 row">
+                    <div class="col-lg-3 col-sm-6">
+                        <h3 class="h3 mb-4">About Our Company</h3>
+                        <p style="line-height: 30px;">We are the best world Information Technology Company. Providing the highest quality in hardware & Network solutions. About more than 20 years of experience and 1000 of innovative achievements.</p>
+                        <div class="d-flex border border-1 border-dark mt-3">
+                            <i class="ri-time-fill d-inline-block fs-1 mx-2"></i>
+                            <div>
+                                <p class="mb-0 mt-2">Talk To Our Support</p>
+                                <p class="mb-0">+1 002-123-4567</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h3 class="h3 mb-4" style="margin-left: 35px;">Quick Links</h3>
+                        <ul>
+                            <li><a href="#"><i class="ri-arrow-right-line me-2"></i>Make Appointment</a></li>
+                            <li><a href="#"><i class="ri-arrow-right-line me-2"></i>Customer Services</a></li>
+                            <li><a href="#"><i class="ri-arrow-right-line me-2"></i>Department Services</a></li>
+                            <li><a href="#"><i class="ri-arrow-right-line me-2"></i>About Company</a></li>
+                            <li><a href="#"><i class="ri-arrow-right-line me-2"></i>Our Case Studies</a></li>
+                            <li><a href="#"><i class="ri-arrow-right-line me-2"></i>Free Consultation</a></li>
+                            <li><a href="#"><i class="ri-arrow-right-line me-2"></i>Meet Our Experts</a></li>
+                            <li><a href="#"><i class="ri-arrow-right-line me-2"></i>Our Business Growth</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h3 class="h3 mb-4">Latest News</h3>
+                        <div class="d-flex ">
+                            <div>
+                                <img src="imag/blog-1.jpg" alt="it-consultancy" height="50px" class="mb-4 me-2">
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;">10 Most Common IT Mistakes Need to Avoid</p>
+                                <div class="d-flex"  style="font-size: 12px;">
+                                    <i class="ri-calendar-2-line"></i>
+                                    <p>May 01, 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <img src="imag/blog-2.jpg" alt="it-consultancy" height="50px" class="mb-4 me-2">
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;">How Can I Manage IT Services in Business ?</p>
+                                <div class="d-flex" style="font-size: 12px;">
+                                    <i class="ri-calendar-2-line"></i>
+                                    <p>May 03, 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <img src="imag/blog-3.jpg" alt="it-consultancy"height="50px" class="mb-4 me-2">
+                            </div>
+                            <div>
+                                <p style="font-size: 12px;">5 Easy Ways to Improve Your Web Security</p>
+                                <div class="d-flex" style="font-size: 12px;">
+                                    <i class="ri-calendar-2-line"></i>
+                                    <p>May 05, 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h3 class="h3 mb-4">News Letter</h3>
+                        <p class="mb-4">Sign up today for hints, tips and the latest product news</p>
+                        <form>
+                            <div class="input-box d-flex border border-1">
+                                <i class="ri-mail-line mx-2 mt-2"></i>
+                                <input type="email" class="p-2" placeholder="Email Address..." required>
+                                <button class="submit-box border-0" type="submit mb-0">
+                                    <i class="ri-send-plane-fill"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <h3 class="h3 mt-3 mb-4">Follow Us On</h3>
+                        <a href="#"><i class="border  border-white rounded-circle p-2 fs-6 ri-facebook-line"></i></a>
+                        <a href="#"><i class="border  border-white rounded-circle p-2 fs-6 ri-twitter-fill mx-2"></i></a>
+                        <a href="#"><i class="border  border-white rounded-circle p-2 fs-6 ri-instagram-fill"></i></a>
+                        <a href="#"><i class="border  border-white rounded-circle p-2 fs-6 ri-linkedin-box-fill mx-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COPYRIGHT -->
+
+        <section class="copyright py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 text-center">
+                        <p>Copyright © 2019 <a href="#" class="">Altech</a> Template by <a href="#">Themetechmount</a></p>
+                    </div>
+                    <div class="col-9 d-lg-flex d-sm-block text-center">
+                        <div class="d-flex justify-content-sm-end justify-content-sm-start">
+                            <p class="me-sm-2 me-lg-0">About us</p>
+                            <div class="vr mx-2 d-none d-lg-block"></div>
+                            <p class="me-sm-2 me-lg-0">Services</p>
+                            <div class="vr mx-2 d-none d-lg-block"></div>
+                            <p class="me-3">Privacy</p>
+                        </div>
+                        <img src="imag/copyright.png" alt="supportive-partners" title="supportive-partners" height="30px" class="d-none d-sm-block">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+.hotelphoto{
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+    background-size: cover;
+}
+
+#secondsection{
+    height: auto;
+}
+.w-25{
+    width: 25%;
+
+}
+
+.roombox{
+    padding: 20px;
+    border: 5px solid rgba(206,180,169);
+    border-radius: 20px;
+}
+
+.roombox a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 25px;
+    background-color: rgba(218,217,214);
+    font-size: 15px;
+    color: black;
+    margin-right: 100px;
+    border-radius: 10px ;
+}
+.roombox a:hover{
+    background-color: rgba(206,180,169);
+    transition: 0.5s;
+    color: white;
+}
+
+.hotelphoto img{
+    width: 250px;
+    height: 250px;
+}

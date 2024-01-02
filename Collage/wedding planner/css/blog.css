@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mx-10{
+    margin: 0 10px;
+}
+.w-3{
+    width: 33%;
+}
+/* HEADER */
+
+header{
+    /* position: fixed; */
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+.logo-reservation{
+    align-items: center;
+}
+header .toggle{
+    opacity: 0;
+}
+header .logo{
+    width: 150px;
+    margin-left: 250px;
+}
+header .reservation{
+    padding: 15px 25px;
+    background-color: rgba(218,217,214);
+    font-size: 15px;
+    color: black;
+    margin-right: 100px;
+    border-radius: 10px ;
+}
+header .reservation:hover{
+    background-color: rgba(206,180,169);
+    transition: 0.5s;
+    color: white;
+}
+ /* NAVBAR */
+
+.menu{
+    background-color: rgba(187, 182, 182, 0.215);
+    padding: 10px 0px;
+}
+.menu .menubar{
+    list-style: none;
+}
+
+/* MAIN */
+/* banner */
+
+.banner-title span{
+    height: 2px;
+    width: 493px;
+    background-color: rgba(206,180,169);
+    display: inline-block;
+    position: relative;
+    top: 23px;
+}
+.banner-img{
+    background: url(../img/blog-banner.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.banner-content{
+    margin: 100px 0;
+    padding: 0 300px;
+}
+.banner h5{
+    font-size: 15px;
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+/* stories */
+
+.stories-title span{
+    height: 2px;
+    width: 196px;
+    background-color: rgba(206,180,169);
+    display: inline-block;
+    position: relative;
+    top: 23px;
+}
+.stories .card-date span{
+    height: 2px;
+    width: 220px;
+    background-color: rgba(206,180,169);
+    display: inline-block;
+    position: relative;
+    top: 12px;
+}
+.stories h4:last-child{
+    background-color: rgb(236, 236, 236);
+    display: inline;
+    margin-top: 20px;
+    padding: 3px 7px;
+}
+.stories .card-content{
+    margin-top: 20px;
+}
+.stories .card-content p{
+    word-spacing: 7px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 100px;
+    background-color: rgba(218,217,214);
+    padding: 10px 0;
+}

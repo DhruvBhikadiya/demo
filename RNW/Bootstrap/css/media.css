@@ -1,0 +1,46 @@
+
+/* MD */
+
+@media(max-width:991px){
+
+    .navbar .ri-search-line{
+        position: absolute;
+        top: 20px;
+        left: 660px;
+    }
+
+    .client .row .ri-play-circle-fill{
+        display: none;
+    }
+}
+
+/* SM */
+
+@media(max-width:767px){
+    .navbar .ri-search-line{
+        position: absolute;
+        top: 20px;
+        left: 510px;
+    }
+}
+
+/* XS */
+
+@media(max-width:575px){
+
+    .navbar .navbar-toggler{
+        position: relative;
+        top: 35px;
+        left: -50px;
+    }
+    .navbar a img{
+        position: relative;
+        left: 70px;
+    }
+    .navbar .ri-search-line{
+        position: absolute;
+        top: 40px;
+        left: 285px;
+    }
+
+}

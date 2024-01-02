@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mx-10{
+    margin: 0 10px;
+}
+.w-3{
+    width: 33%;
+}
+
+/* HEADER */
+
+header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+.logo-reservation{
+    align-items: center;
+}
+header .toggle{
+    opacity: 0;
+}
+header .logo{
+    width: 150px;
+    margin-left: 250px;
+}
+header .reservation{
+    padding: 15px 25px;
+    background-color: rgba(218,217,214);
+    font-size: 15px;
+    color: black;
+    margin-right: 100px;
+    border-radius: 10px ;
+}
+header .reservation:hover{
+    background-color: rgba(206,180,169);
+    transition: 0.5s;
+    color: white;
+}
+
+/* NAVBAR */
+
+.menu{
+    background-color: rgba(187, 182, 182, 0.215);
+    padding: 10px 0px;
+}
+.menu .menubar{
+    list-style: none;
+}
+
+/* MAIN */
+
+/* BANNER */
+
+.banner{
+    background: url(../img/banner.jpg) rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    background-blend-mode: darken;
+    text-align: center;
+    width: 100%;
+}
+.banner .slogan{
+    color: white;
+    text-shadow: rgb(179, 176, 176);
+    font-size: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    position: absolute;
+    top: 600px;
+    left: 765px;
+}
+
+/* MEETING AND EVENTS */
+
+.meet-event{   
+    max-width: 1400px;
+    margin: auto;
+}
+.meet-event-content{
+    margin-top: 70px;
+}
+.meet-event span{
+    height: 2px;
+    width: 363px;
+    background-color: rgba(206,180,169);
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    top: 21px;
+}
+.meet-event .header h1{
+    margin: 0 10px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.meet-event .content p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 5px;
+}
+
+/* BALLROOM */
+
+.ballroom{
+    margin-top: 130px;
+}
+.ballroom .w-50:last-child{
+    max-width: 700px;
+    margin: auto;
+}
+.ballroom .w-50:last-child h2{
+    letter-spacing: 5px;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+.ballroom .w-50:last-child p{
+    word-spacing: 5px;
+    font-size: 20px;
+    color: rgb(92, 91, 89);
+}
+
+/* EVENT SPACES */
+
+.event .header{
+    margin-top: 100px;
+}
+.event span{
+    height: 2px;
+    width: 546px;
+    background-color: rgba(206,180,169);
+    display: inline-block;
+    position: relative;
+    top: 23px;
+}
+.event .header h1{
+    margin: 0 10px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+/* package */
+
+.package .header{
+    margin-top: 100px;
+}
+.package span{
+    height: 2px;
+    width: 357px;
+    background-color: rgba(206,180,169);
+    display: inline-block;
+    position: relative;
+    top: 23px;
+}
+.package .header h1{
+    margin: 0 10px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+center a{
+    padding: 10px 20px;
+    background-color: rgba(218,217,214);
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 100px;
+    background-color: rgba(218,217,214);
+    padding: 10px 0;
+}
+
